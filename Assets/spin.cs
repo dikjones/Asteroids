@@ -8,12 +8,12 @@ public class Spin : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.A))
 	 	{
-    		transform.Rotate(Vector3.right * Time.deltaTime);
+    		transform.Rotate(Vector3.forward * 500 * Time.deltaTime);
 		}
 
    if (Input.GetKey(KeyCode.D))
 	 {
-       transform.Rotate(-Vector3.right * Time.deltaTime);
+       transform.Rotate(-Vector3.forward * 500 * Time.deltaTime);
 			 }
 
   	}
